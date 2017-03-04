@@ -84,7 +84,7 @@ strong{
     margin-bottom: 20px;
 }
 #contact-form  label{
-    display: inline-block;/*allows to put a width*/
+    display: inline-block;/*allows to put a width bc, label is inline*/
     width: 100px;
     font-weight: bold;
 }
