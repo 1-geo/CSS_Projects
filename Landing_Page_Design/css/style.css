@@ -1,3 +1,122 @@
 body{
 	font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    line-height: 1.5em;/**/
+}
+#container{
+    width: 70%;
+    margin: 10px auto;/*left right auto means center*/
+    background-color: #fff;
+    overflow: auto;/*if content extends container then show scroll bar*/
+}
+/*core styling*/
+p{
+    margin: 10px 0;    
+}
+h1{
+    font-size: 39px;
+    font-weight: bold;
+    margin: 20px 0 10px 0;
+    line-height: 1.2em;
+}
+h3{
+    font-size: 22px;
+    margin: 10px 0;
+}
+h4{
+    font-size: 19px;
+    margin: 10px 0;
+}
+strong{
+    font-weight: bold;
+}
+.clearfix{
+    clear: both;
+}
+#main-header{
+    border-bottom: 4px solid #4ea0d8;
+    
+}
+/*Images need to be set display block to center along with auto margin. By default images are displayed inline*/
+#logo{
+    margin: 2px auto;
+    display: block;
+}
+#main-text{
+    text-align: center;
+    color: #333;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+#sub-1{
+    width: 50%;
+    float: left;
+}
+.points li{
+    margin-bottom: 30px;
+}
+.points img{
+    float: left;
+    margin-right: 7px;
+}
+.points h4{
+    padding-top: 5px;
+}
+.content-footer{
+    border-top: 3px solid #ddd;
+    margin-bottom: 20px;
+}
+#sub-2{
+    width: 48%;
+    float: right;
+}
+#contact-form{
+    padding: 10px 15px 15px 15px;
+    border: 4px solid #4ea0d8;
+    border-radius: 10px;
+    /*targets specific browser for compaitibiliy*/
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    overflow: auto;
+    background-color: #f4f4f4;
+}
+#contact-form div{
+    margin-bottom: 20px;
+}
+#contact-form  label{
+    display: inline-block;/*allows to put a width*/
+    width: 100px;
+    font-weight: bold;
+}
+/*input is inline element, but bc div is block element event label/input starts new line*/
+#contact-form input[type="text"],#contact-form input[type="email"]{
+    border: #ccc 1px solid;
+    border-radius: 5px;
+    /*targets specific browser for compaitibiliy*/
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    width: 65%;
+    height: 25px;
+}
+#contact-form input[type="submit"]{
+    float: right;
+    border-radius: 5px;
+    /*targets specific browser for compaitibiliy*/
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    background-color: #fa6e3e;
+    color: #fff;
+    padding: 10px 14px;
+}
+#testimonial{
+    margin: 40px 0;
+}
+#testimonial img{
+    float: left;
+    margin-right: 15px;
+}
+#main-footer{
+    text-align: center;
+    border-top: #ccc solid 1px;
+    color: #aaa;
 }
